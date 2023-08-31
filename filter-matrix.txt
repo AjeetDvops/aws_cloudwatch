@@ -1,0 +1,17 @@
+1. # Filter matrix
+[w1="TriziAdapter", w2="-", w3="Http Connect Timeout Exception in Credit request" || w3="Http Timeout in Credit request"]
+
+2. # 
+[w1="*TriziAdapter - credit batch, request handler:*"]
+
+3. 
+[w1="*io.grpc.StatusRuntimeException:*", w2="*INVALID_ARGUMENT:*"]
+
+4. 
+[w1="TriziAdapter", w2="-", w3="Http Connect Timeout Exception in Credit request" || w3="Http Timeout in Credit request"]
+
+5. 
+[w1="*INFO*", (w2="*WalletController - credit with payload*" || w2="*WalletServer - debit with payload*") || (w2="*WalletServer - checkBalance with payload*")]
+
+6.
+"TriziAdapter - Case of fraud / transaction status is PENDING"
